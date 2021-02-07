@@ -20,7 +20,6 @@ def enterStats():
     else:
         addPoints = 0
 
-
 def findSuccess():
     dbt = 0
 
@@ -32,7 +31,6 @@ def findSuccess():
 
 def findRate():
     return findSuccess() * 0.05
-
 
 enterStats()
 general = findSuccess() + addPoints
